@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Noto Sans JP";
+  
+}
+html {
+  scroll-behavior: smooth;
+  
+}
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+input,
+button,
+li,
+ul,
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+a {
+  cursor: pointer;
+}
+input,
+button,
+textarea {
+  outline: none;
+}
+input[type="radio"],
+input[type="checkbox"],
+input[type="submit"] {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+textarea {
+  resize: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  vertical-align: top;
+}
+.buttom {
+  display: block;
+  border: 5px solid transparent;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 32px;
+  background-color: rgba(240, 248, 255, 0.884);
+  border-radius: 30px;
+  box-shadow: 2px 2px 4px 0 rgba(14, 12, 12, 0.5),
+    -2px -2px 4px 0 rgba(25, 48, 82, 0.5),
+    inset -2px -2px 4px 0 rgba(52, 52, 54, 0.164),
+    inset 2px 2px 4px 0 rgba(252, 247, 247, 0.493);
+
+    @media (min-width: 500px) and (max-width: 709px){
+      display: inline-block;
+      font-size: 20px;
+      padding: 10px 20px;
+    }
+    @media (min-width: 710px) and (max-width: 768px){
+      display: inline-block;
+      font-size: 17px;
+      padding: 5px 10px;
+    }
+
+
+
+  @media (min-width: 769px) and (max-width: 1099px){
+    display: inline-block;
+  font-size: 17px; 
+   padding: 10px 10px;
+   }
+
+
+
+  @media (min-width: 1100px){
+  display: inline-block;
+  border: 5px solid transparent;
+  color: black;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 10px 32px;
+  background-color: rgba(240, 248, 255, 0.884);
+  border-radius: 30px;
+  box-shadow: 2px 2px 4px 0 rgba(14, 12, 12, 0.5),
+   -2px -2px 4px 0 rgba(25, 48, 82, 0.5),
+   inset -2px -2px 4px 0 rgba(52, 52, 54, 0.164),
+  inset 2px 2px 4px 0 rgba(252, 247, 247, 0.493); 
+ }
+
+}
+.buttom:hover {
+  background-color: #183855;
+  cursor: pointer;
+  color: white;
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5),
+    -4px -4px 6px 0 rgba(17, 67, 129, 0.5),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+    transition: all 0.5s ease;
+}
+.pool-img .buttom {
+  border: 0.1px solid transparent;
+}
